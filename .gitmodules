@@ -1,0 +1,21 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/sicily"]
+	path = themes/sicily
+	url = https://github.com/cristianmarint/sicily-hugo-theme.git
+[submodule "themes/dimension"]
+	path = themes/dimension
+	url = https://github.com/your-identity/hugo-theme-dimension.git
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
+[submodule "themes/bento"]
+	path = themes/bento
+	url = https://github.com/leonardofaria/bento.git
+[submodule "themes/hugo-refresh"]
+	path = themes/hugo-refresh
+	url = https://github.com/PippoRJ/hugo-refresh.git
