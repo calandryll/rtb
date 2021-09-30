@@ -7,7 +7,28 @@ theme = "serif"
   [module.hugoVersion]
     extended = true
     min = "0.55.0"
-    
+  
+
+# Superscript stuff
+[markup]
+  [markup.goldmark]
+   [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
 [params]
   # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
   google_analytics_id = ""
@@ -25,7 +46,7 @@ theme = "serif"
     alt = "A home brewery"
 
   [params.team]
-    summary_large_truncate = 120  # How many characters to include in the summary of the team bios (large layout) before truncating
+    summary_large_truncate = 0  # How many characters to include in the summary of the team bios (large layout) before truncating
 
   [params.footer]
     copyright_text = 'Chris Main - 2021'
@@ -35,30 +56,37 @@ theme = "serif"
   [[menu.main]]
     name = "Beers"
     url = "/beers/"
-      weight = 3
+    weight = 3
+    hasChildren = true
 
-  [[menu.main]]
-      name = "Water Profile"
-      url = "/water/"
-      weight = 2
-
-  [[menu.main]]
-      name = "About"
-      url = "/about/"
+    [[menu.main]]
+      parent = "Beers"
+      name = "2 Minute Minor"
+      url = "/beers/2_Minute_Minor/"
       weight = 1
+
+  [[menu.main]]
+    name = "Water Profile"
+    url = "/water/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
   
   [[menu.main]]
-      name = "Current Fermentations"
-      url = "http://brewing.redtidebrewing.com"
-      weight = 4
+    name = "Current Fermentations"
+    url = "http://brewing.redtidebrewing.com"
+    weight = 4
 
   # Footer Menu
   [[menu.footer]]
     name = "Home"
     url = "/"
-      weight = 1
+    weight = 1
 
   [[menu.footer]]
     name = "Contact"
     url = "mailto:chris@redtidebrewing.com"
-      weight = 2
+    weight = 2
