@@ -19,3 +19,12 @@
 [submodule "themes/hugo-refresh"]
 	path = themes/hugo-refresh
 	url = https://github.com/PippoRJ/hugo-refresh.git
+[submodule "themes/navigator"]
+	path = themes/navigator
+	url = https://github.com/gethugothemes/navigator-hugo.git
+[submodule "themes/vno-hugo"]
+	path = themes/vno-hugo
+	url = https://github.com/xslingcn/vno-hugo.git
+[submodule "themes/pico"]
+	path = themes/pico
+	url = https://github.com/negrel/hugo-theme-pico.git

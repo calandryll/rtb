@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Redtide Home Brewery</title>
+    <link>http://redtidebrewing.com/tags/</link>
+    <description>Recent content in Tags on Redtide Home Brewery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://redtidebrewing.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>American Porter</title>
+      <link>http://redtidebrewing.com/tags/american-porter/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://redtidebrewing.com/tags/american-porter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>American Pale Ale</title>
+      <link>http://redtidebrewing.com/tags/american-pale-ale/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://redtidebrewing.com/tags/american-pale-ale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saison</title>
+      <link>http://redtidebrewing.com/tags/saison/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://redtidebrewing.com/tags/saison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kolsch</title>
+      <link>http://redtidebrewing.com/tags/kolsch/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://redtidebrewing.com/tags/kolsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cream Ale</title>
+      <link>http://redtidebrewing.com/tags/cream-ale/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://redtidebrewing.com/tags/cream-ale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marzen</title>
+      <link>http://redtidebrewing.com/tags/marzen/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://redtidebrewing.com/tags/marzen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spice, Herb or Vegetable Beer</title>
+      <link>http://redtidebrewing.com/tags/spice-herb-or-vegetable-beer/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://redtidebrewing.com/tags/spice-herb-or-vegetable-beer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
